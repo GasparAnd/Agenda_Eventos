@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Festival de Pipa - Sapupara/Tabatinga</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #72d1f3;
+            margin: 0;
+            padding: 20px;
+            color: #060606;
+        }
+
+        h1 {
+            color: #3c67df;
+            font-family: Georgia, serif;
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        h2 {
+            color: #4643ef;
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        #apresentacao {
+            background-color: #ffffff;
+            text-align: center;
+            font-size: 18px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        section {
+            background-color: rgb(247, 255, 255);
+            padding: 20px;
+            margin: 25px auto;
+            max-width: 850px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgb(0, 0, 0, 0.10);
+        }
+
+        .titulo-evento {
+            letter-spacing: 2px;
+        }
+
+        .data {
+            color: #c0392b;
+            font-weight: bold;
+        }
+
+        li {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .evento-destaque {
+            background-color: #fafcfe;
+            border-left: 6px solid #e8d9c1;
+        }
+
+        .evento-destaque .descricao {
+            color: #3f3d3a;
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        a {
+            color: #21618c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #e74c3c;
+            text-decoration: underline;
+        }
+
+        #contato {
+            background-color: #f7f8f8;
+            text-align: center;
+        }
+
+        #contato p {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            color: rgb(251, 248, 248);
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Agenda de Eventos</h1>
+
+        <p id="apresentacao">
+            Confira os eventos que acontecerão na comunidade
+            de Sapupara/Tabatinga, em Maranguape.
+            Participe de momentos de cultura, esporte e diversão!
+        </p>
+    </header>
+
+    <main>
+
+        <section class="evento-destaque">
+
+            <h2 class="titulo-evento">
+                Festival de Pipa
+            </h2>
+
+            <p class="descricao">
+                Pipeiros de plantão irão se reunir no festival
+                para participar de três desafios especiais,
+                demonstrando suas habilidades e criatividade
+                em uma competição cheia de emoção e diversão.
+            </p>
+
+            <p><strong>Atrações:</strong></p>
+
+            <ul>
+                <li>Disputa de altura.</li>
+                <li>Beleza das pipas.</li>
+                <li>Disputa mata-mata.</li>
+            </ul>
+
+            <p>
+                <span class="data">
+                    Data: 29 de novembro de 2026
+                </span>
+            </p>
+
+            <p>
+                Local: Campo do Mirante, distrito de
+                Sapupara, Maranguape - CE.
+            </p>
+
+            <p>
+                <a href="https://www.facebook.com/tabatingamaranguape/?locale=pt_BR"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Saiba mais sobre o evento
+                </a>
+            </p>
+
+        </section>
+
+        <section>
+
+            <h2 class="titulo-evento">
+                Feira Cultural
+            </h2>
+
+            <p>
+                Uma tarde especial de música, dança, teatro e
+                apresentações artísticas organizadas pelos
+                estudantes, celebrando a criatividade e a
+                diversidade cultural.
+            </p>
+
+            <p>
+                <span class="data">
+                    Data: 12 de dezembro de 2026
+                </span>
+            </p>
+
+            <p>
+                Local: Escola local da comunidade João cirino Nogueira.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h2 class="titulo-evento">
+                Campeonato Esportivo
+            </h2>
+
+            <p>
+                Um evento dedicado ao esporte e à integração
+                dos participantes, com partidas e atividades
+                que incentivam o trabalho em equipe,
+                a amizade e a competição saudável.
+            </p>
+
+            <p>
+                <span class="data">
+                    Data: 19 de dezembro de 2026
+                </span>
+            </p>
+
+            <p>
+                Local: Areninha esportiva da comunidade.
+            </p>
+
+        </section>
+
+    </main>
+
+    <section id="contato">
+
+        <h2>Contato</h2>
+
+        <p>
+            Para obter mais informações sobre os eventos,
+            procure a organização da comunidade ou acesse
+            o link do Festival de Pipas.
+        </p>
+
+        <p>
+            <strong>Instituição:</strong> Bairro TBG
+        </p>
+
+        <p>
+            <strong>Atendimento:</strong> Informações com
+            os responsáveis pelos eventos.
+        </p>
+
+    </section>
+
+    <footer>
+        <p>Agenda de Eventos © 2026 - Projeto escolar de CSS</p>
+    </footer>
+
+</body>
+</html>
